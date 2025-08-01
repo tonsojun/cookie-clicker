@@ -1,0 +1,42 @@
+
+body {
+    background-image: url("background.webp");
+
+    /* Some styles to make the background image cover the entire page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+}
+
+h1 {
+    color: rgb(36, 38, 40);
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+
+    font-size: 50px;
+    user-select: none;
+}
+
+p {
+    color: rgb(26, 34, 41);
+    text-align: center;
+    width: 100%;
+
+    font-size: 30px;
+}
+
+button {
+    background-color: rgb(197, 119, 119);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+
+    font-size: 22px;
+}
